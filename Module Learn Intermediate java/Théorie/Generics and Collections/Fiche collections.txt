@@ -1,0 +1,86 @@
+📌 Fiche Résumé : Collections en Java
+1️⃣ Introduction aux Collections
+Les Collections en Java sont des structures permettant de gérer efficacement des ensembles de données. Elles font partie du framework Java Collections (JCF) et remplacent les tableaux classiques par des structures plus flexibles.
+
+Principales interfaces des Collections :
+List → Collection ordonnée avec accès indexé (ArrayList, LinkedList).
+Set → Collection sans doublons (HashSet, TreeSet, LinkedHashSet).
+Queue → File d’attente avec gestion FIFO (LinkedList, PriorityQueue).
+Deque → File d’attente double entrée (ArrayDeque, LinkedList).
+Map → Association clé/valeur (HashMap, TreeMap, LinkedHashMap).
+2️⃣ List : Stockage ordonné et indexé
+Une List est une collection ordonnée, où l'on peut accéder aux éléments via un index.
+
+Implémentations principales :
+ArrayList → Basé sur un tableau dynamique, rapide en accès direct mais lent en insertion/suppression.
+LinkedList → Basé sur une liste chaînée, rapide en modification mais plus lent en accès direct.
+Méthodes clés :
+add(element), add(index, element) → Ajoute un élément.
+get(index) → Récupère un élément.
+remove(index), remove(object) → Supprime un élément.
+indexOf(object), contains(object) → Recherche un élément.
+3️⃣ Set : Collection sans doublons
+Un Set est une collection non ordonnée qui n’accepte pas les doublons.
+
+Implémentations principales :
+HashSet → Utilise une table de hachage (rapide, ordre non garanti).
+LinkedHashSet → Conserve l’ordre d’insertion.
+TreeSet → Trie les éléments de façon naturelle ou avec un Comparator.
+Méthodes clés :
+add(element), remove(element) → Ajoute/supprime un élément.
+contains(element) → Vérifie la présence d’un élément.
+size() → Retourne la taille du Set.
+4️⃣ Map : Association clé/valeur
+Une Map est une collection qui stocke des paires clé/valeur.
+
+Implémentations principales :
+HashMap → Rapide mais ordre non garanti.
+LinkedHashMap → Conserve l’ordre d’insertion.
+TreeMap → Trie les clés automatiquement.
+Méthodes clés :
+put(key, value), get(key) → Ajoute/récupère une valeur.
+remove(key) → Supprime une paire clé/valeur.
+containsKey(key), containsValue(value) → Vérifie la présence d’un élément.
+keySet(), values(), entrySet() → Récupère les clés, valeurs ou entrées.
+5️⃣ Queue : Gestion FIFO (First In, First Out)
+Une Queue est une file d’attente où les éléments sont traités dans l’ordre d’arrivée.
+
+Implémentations principales :
+LinkedList → Implémente Queue avec une liste chaînée.
+PriorityQueue → Trie les éléments selon leur priorité.
+Méthodes clés :
+offer(element), add(element) → Ajoute un élément.
+poll() → Récupère et supprime le premier élément.
+peek() → Récupère le premier élément sans le supprimer.
+6️⃣ Deque : File d’attente double entrée
+Une Deque (double-ended queue) permet d’ajouter et supprimer des éléments à l’avant et à l’arrière.
+
+Implémentations principales :
+LinkedList → Moins optimisé mais plus flexible.
+ArrayDeque → Meilleure performance pour l’ajout/suppression aux extrémités.
+Méthodes clés :
+addFirst(element), addLast(element) → Ajout en début/fin.
+removeFirst(), removeLast() → Suppression en début/fin.
+getFirst(), getLast() → Récupération en début/fin.
+Parcourir une Deque en sens inverse :
+java
+Copier
+Modifier
+Deque<String> deque = new ArrayDeque<>();
+deque.addLast("Mike");
+deque.addLast("Jack");
+deque.addLast("John");
+
+Iterator<String> iterator = deque.descendingIterator();
+while(iterator.hasNext()) {
+  System.out.println(iterator.next());
+}
+// Output : "John", "Jack", "Mike"
+✅ Conclusion
+List : Collection ordonnée et indexée.
+Set : Collection sans doublons.
+Map : Association clé/valeur.
+Queue : Gestion FIFO (Premier entré, premier sorti).
+Deque : Gestion double entrée (ajout et suppression en début/fin).
+💡 Astuce : Choisir l’implémentation selon le besoin (performance, tri, insertion rapide, etc.).
+
