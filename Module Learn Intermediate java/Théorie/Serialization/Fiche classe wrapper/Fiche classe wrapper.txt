@@ -1,0 +1,64 @@
+🎯 Fiche de Révision : Classes Wrapper en Java
+📌 Définition
+Les classes wrapper permettent d'encapsuler un type primitif dans un objet. Elles sont utiles pour manipuler les types primitifs dans des collections et pour utiliser des méthodes utilitaires.
+
+📌 Correspondance des types primitifs et wrappers
+
+Type Primitif	Classe Wrapper
+int	Integer
+double	Double
+float	Float
+char	Character
+boolean	Boolean
+byte	Byte
+short	Short
+long	Long
+📌 Boxing et Unboxing
+
+Boxing : Conversion d'un type primitif en classe wrapper.
+java
+Copier
+Modifier
+Integer i = Integer.valueOf(10); // Boxing explicite
+Integer j = 10; // Auto-boxing
+Unboxing : Conversion d'un objet wrapper en type primitif.
+java
+Copier
+Modifier
+int k = j.intValue(); // Unboxing explicite
+int l = j; // Auto-unboxing
+📌 Méthodes Utiles des Classes Wrapper
+
+Conversion String → Type Wrapper
+java
+Copier
+Modifier
+Integer n = Integer.valueOf("123");
+Double d = Double.valueOf("5.5");
+Conversion Type Wrapper → String
+java
+Copier
+Modifier
+String s = n.toString(); // "123"
+Conversion Type Wrapper → Primitif
+java
+Copier
+Modifier
+int x = n.intValue();
+double y = d.doubleValue();
+📌 Exemple d'utilisation
+
+java
+Copier
+Modifier
+public class Main {
+  public static void main(String[] args) {
+    Integer a = Integer.valueOf(5); // Boxing
+    int b = a; // Unboxing
+    System.out.println(a * 2); // Affiche 10
+  }
+}
+📌 Pourquoi utiliser les classes wrapper ?
+✅ Permettent de stocker des valeurs primitives dans des structures comme ArrayList<Integer>.
+✅ Offrent des méthodes utilitaires (parseInt(), toString(), etc.).
+✅ Facilitent la conversion entre types primitifs et objets.
