@@ -3,13 +3,9 @@
 Ce dépôt contient mon parcours d'apprentissage en Java. Il est structuré de manière à suivre ma progression, organiser mes exercices et centraliser mes notes de révision.
 
 ## 📂 Structure du dépôt
-Java/ │── <Nom_du_Module>/ │ 
-        │── Certification/ # Capture d'écran de la certification obtenue (si applicable) │ 
-        │── Exercices/ # Exercices réalisés avec l'aide de l'IA │ 
-        │── Theorie/ # Fiches de révision + liens vers les cours du module 
-      │── workspace/ # Espace de travail pour les exercices sur VS Code 
-      │── Programme de montée en compétences # déroulement d'une journée/semaine type, module de cours à suivre
-
+```
+Java/ │── <Nom_du_Module>/ │ ├── Certification/ # Capture d'écran de la certification obtenue (si applicable) │ ├── Exercices/ # Exercices réalisés avec l'aide de l'IA │ ├── Theorie/ # Fiches de révision + liens vers les cours du module │── workspace/ # Espace de travail pour les exercices sur VS Code │── Programme de montée en compétences.docx # Déroulement d'une journée/semaine type, modules de cours à suivre
+```
 ## 🚀 Objectif
 
 - Consolider mes connaissances en Java.
