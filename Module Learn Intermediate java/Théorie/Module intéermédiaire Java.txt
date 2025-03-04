@@ -1,0 +1,73 @@
+Module 2 : Learn Intermediate Java
+	Chapitre 1 : Introduction
+		Introduction au cours Intermediate Java.
+		
+	Chapitre 2 : Entrée et Sortie (Input and Output)
+		Introduction aux entrées/sorties en Java.
+		Review : Impression avec System.out.
+		Scanner Class : Utilisation de Scanner pour la lecture des entrées utilisateur.
+		Scanner Functionality : Fonctionnalités avancées de Scanner (lecture de différents types de données).
+		FileReader : Lecture de fichiers avec FileReader.
+		FileWriter : Écriture dans un fichier avec FileWriter.
+		IOExceptions : Gestion des exceptions liées aux entrées/sorties.
+		
+	Chapitre 3 : Sérialisation (Serialization)
+			Introduction à la sérialisation en Java.
+			Serializable Interface : Utilisation de l'interface Serializable pour rendre un objet sérialisable.
+			Serializing Objects to a File : Sérialisation d’objets dans un fichier.
+			Deserializing an Object from a File : Désérialisation d’un objet depuis un fichier.
+			Serializable Fields : Gestion des champs sérialisables.
+			Serializing Associated Fields : Sérialisation de champs associés (objets imbriqués).
+			Custom Serialization : Personnalisation de la sérialisation.
+			
+	Chapitre 4 : Génériques et Collections (Generics and Collections)
+		Introduction aux génériques et aux collections en Java.
+		Classes : Déclaration et utilisation des classes génériques.
+		Wrapper Classes : Classes enveloppes (Integer, Double, etc.).
+		Interfaces : Utilisation d'interfaces génériques.
+		Methods : Définition de méthodes génériques.
+		Benefits : Avantages de l'utilisation des génériques.
+		Multiple Type Parameters : Utilisation de plusieurs types génériques.
+		Upper Bounds : Contraintes de bornes supérieures (extends).
+		Wildcards : Utilisation des génériques avec ?.
+		Wildcard Lower Bounds : Contraintes de bornes inférieures (super).
+		List : Collection de type List (ArrayList, LinkedList).
+		Set : Collection Set (HashSet, TreeSet).
+		Queue : Structure de file (Queue).
+		Deque : Double-ended queue (Deque).
+		Collection : Interface Collection et ses implémentations.
+		Algorithms : Algorithmes utilitaires pour les collections (Collections.sort(), binarySearch()).
+		Map : Interface Map (HashMap, TreeMap).
+		Aggregate Operations : (Tu es ici !) Opérations d’agrégation sur les collections.
+		
+	Chapitre 5 : Classes Imbriquées (Nested Classes)
+		Introduction aux classes imbriquées.
+		Non-Static Nested Classes : Implémentation des classes internes non statiques.
+		Static Nested Classes : Implémentation des classes internes statiques.
+		Shadowing : Masquage de variables dans les classes imbriquées.
+		
+	Chapitre 6 : Gestion des Threads (Threading)
+		Extending the Thread Class : Création de threads en étendant Thread.
+		Implementing the Runnable Interface : Création de threads avec Runnable.
+		Supervising a Thread : Supervision des threads.
+		Waiting for Thread Completion : Attente de la fin d’un thread.
+		Thread Synchronization : Synchronisation des threads pour éviter les conflits d’accès aux ressources partagées.
+		Communicating Between Threads : Communication entre threads.
+		
+	Chapitre 7 : Expressions Régulières (Regular Expressions)
+		Pattern Class : Utilisation de la classe Pattern pour la gestion des regex.
+		Matcher Class : Utilisation de Matcher pour rechercher des motifs.
+		Character Classes : Définition de classes de caractères (\d, \w, etc.).
+		Capture Groups and Escaped Characters : Groupes capturants et caractères d’échappement.
+		Quantifiers : Quantificateurs (*, +, ?, {n}).
+		Alternation : Opérateurs de choix (| pour les alternatives).
+		
+	Chapitre 8 : Tests avec JUnit (JUnit Testing)
+		JUnit Classes and Methods : Introduction aux tests unitaires avec JUnit.
+		@Test-ing, @Test-ing, 1 2 3 : Annotation @Test et exécution des tests.
+		@Test-ing, @Test-ing, 1 2 3 Continued : Suite des tests unitaires.
+		@Test Methods and Asserts : Méthodes de test et assertions (assertEquals(), assertTrue(), etc.).
+		@Before We Go Further : Annotation @Before pour exécuter du code avant chaque test.
+		The @After-math : Annotation @After pour exécuter du code après chaque test.
+		Running With the @Suite-s : Exécution de tests en suite avec @Suite.
+
