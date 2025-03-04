@@ -1,0 +1,98 @@
+Module 1 : Learn Java
+	Chapitre 1 : Hello World
+			Introduction à Java
+			Création d'un fichier Java
+			Commentaires dans le code
+			Compilation d'un programme Java
+			
+	Chapitre 2 : Variables
+		Types de variables : int, double, boolean, char, String
+		Vérification statique
+		Règles de nommage
+		Opérations mathématiques :
+		Addition, soustraction, multiplication, division, modulo
+		Opérateurs d'affectation composés
+		Ordre des opérations
+		Opérateurs de comparaison :
+		> (supérieur à), < (inférieur à)
+		>= (supérieur ou égal à), <= (inférieur ou égal à)
+		== (égal à), != (différent de)
+		.equals() pour comparer des chaînes de caractères
+		Concaténation de chaînes de caractères
+		Utilisation du mot-clé final
+		
+	Chapitre 3 : Programmation orientée objet (OOP) en Java
+		Introduction aux classes
+		Syntaxe des classes
+		Constructeurs
+		Champs d'instance et affectation de valeurs
+		Méthodes de classe
+		Portée des variables
+		Passage de paramètres aux méthodes
+		Modification des champs d'instance
+		Méthode toString()
+		
+	Chapitre 4 : Structures conditionnelles et contrôle de flux
+		Instructions if, if-else, if-else if
+		Conditions imbriquées
+		Structure switch
+		Opérateurs logiques :
+		&& (ET logique), || (OU logique), ! (NON logique)
+		Combinaison de plusieurs conditions
+		
+	Chapitre 5 : Tableaux et ArrayLists
+		Déclaration et initialisation de tableaux (Array)
+		Importation du package Arrays
+		Accès aux éléments d'un tableau par index
+		Création de tableaux dynamiques (ArrayList)
+		Ajout, suppression et modification d’éléments dans une ArrayList
+		Accès aux éléments par index
+		Récupération de la taille (length pour les tableaux, size() pour les ArrayLists)
+		
+	Chapitre 6 : Boucles (Loops)
+		Boucle while et incrémentation
+		Boucle for et son utilisation
+		Itération sur un Array ou ArrayList
+		Instructions break et continue
+		Boucle for-each
+		Suppression d’éléments lors d’une itération
+		
+	Chapitre 7 : Méthodes de manipulation des chaînes de caractères (String)
+		length() : longueur d'une chaîne
+		concat() : concaténation de chaînes
+		equals() : comparaison de chaînes
+		indexOf() : position d'un caractère ou sous-chaîne
+		charAt() : récupération d'un caractère par index
+		substring() : extraction d'une sous-chaîne
+		toUpperCase() / toLowerCase() : conversion en majuscules/minuscules
+		
+	Chapitre 8 : Accès, encapsulation et méthodes statiques
+		Portée des variables et visibilité (public, private)
+		Encapsulation et méthodes d’accès (getter, setter)
+		Utilisation de this pour référencer l'instance courante
+		Création et utilisation de méthodes privées
+		
+	Chapitre 9 : Héritage et polymorphisme
+		Héritage (extends)
+		Utilisation d'un constructeur hérité
+		Modificateurs de classe et d'attribut (protected, private, public)
+		Introduction au polymorphisme
+		Surcharge (overriding) de méthodes
+		Utilisation des classes héritées dans des tableaux et ArrayLists
+		Passage de sous-classes en paramètres de méthodes
+		
+	Chapitre 10 : Débogage et gestion des erreurs
+		Types de bugs
+		Erreurs de syntaxe
+		Erreurs d’exécution (exceptions)
+		Gestion des exceptions (try-catch)
+		Erreurs logiques
+		Techniques de débogage
+		
+	Chapitre 11 : Tableaux à deux dimensions (2D Arrays)
+		Déclaration et initialisation
+		Accès et modification d’éléments
+		Boucles imbriquées pour parcourir un tableau 2D
+		Parcours en ordre ligne par ligne (row-major order)
+		Parcours en ordre colonne par colonne (column-major order)
+		Combinaison du parcours avec une logique conditionnelle
